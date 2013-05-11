@@ -36,3 +36,7 @@ download-src http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/cuda-z-0.7.
 download-win32 http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/CUDA-Z-0.7.181.exe/download
 download-linux http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/CUDA-Z-0.7.181.run/download
 download-macosx http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/CUDA-Z-0.7.181.dmg/download
+version 0.7.184
+release-notes http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/
+download-src http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/cuda-z-0.7-f1.zip/download
+download-macosx http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/CUDA-Z-0.7.184.dmg/download
