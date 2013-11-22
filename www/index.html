@@ -26,8 +26,8 @@
 					<div id="summary">
 						<p><b>CUDA Information Utility</b></p>
 						<p>for Windows, Linux and Mac OSX</p>
-						<p>Last Release: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/"><b>0.7.189</b></a></p>
-<!--						<p>Last Beta: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.X-Beta/"><b>0.7.XXX</b></a></p> -->
+						<p>Last Release: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.8/"><b>0.8.207</b></a></p>
+<!--						<p>Last Beta: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/Beta/"><b>0.9.XXX</b></a></p> -->
 					</div>
 				</div>
 				<div id="menu">
@@ -65,7 +65,7 @@
 						<div id="block-windows" class="block-inactive">
 							<div class="block-body">
 								<h2>Windows</h2>
-								<p class="download-button" id="download-windows"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/CUDA-Z-0.7.189.exe/download"><span><span><img src="img/web-download-windows.png" border="0" alt="WinCZ"/><br/>Download CUDA-Z for Windows XP/Vista/7/8 32/64-bit</span></span></a></p>
+								<p class="download-button" id="download-windows"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.8/CUDA-Z-0.8.207.exe/download"><span><span><img src="img/web-download-windows.png" border="0" alt="WinCZ"/><br/>Download CUDA-Z for Windows XP/Vista/7/8 32/64-bit</span></span></a></p>
 								<p class="info"><b>Windows notes:</b><br/>
 								CUDA-Z is known to not function with default Microsoft driver for nVIDIA chips.
 								User must install <a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">official driver for nVIDIA products</a> to run CUDA-Z.</p>
@@ -83,7 +83,7 @@
 						<div id="block-linux" class="block-inactive">
 							<div class="block-body">
 								<h2>Linux</h2>
-								<p class="download-button" id="download-linux"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/CUDA-Z-0.7.189.run/download"><span><span><img src="img/web-download-linux.png" border="0" alt="TuxCZ"/><br/>Download CUDA-Z for Linux 32/64-bit</span></span></a></p>
+								<p class="download-button" id="download-linux"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.8/CUDA-Z-0.8.207.run/download"><span><span><img src="img/web-download-linux.png" border="0" alt="TuxCZ"/><br/>Download CUDA-Z for Linux 32/64-bit</span></span></a></p>
 								<p class="info"><b>Linux notes:</b><br/>
 								CUDA-Z is known not to function with 3rd-party linux driver for nVIDIA chips.
 								You can <a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">download the official driver from nVIDIA website</a> if your distribution is not equipped with proper driver.</p>
@@ -103,11 +103,11 @@
 						<div id="block-macosx" class="block-inactive">
 							<div class="block-body">
 								<h2>Mac OSX</h2>
-								<p class="download-button" id="download-macosx"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.7/CUDA-Z-0.7.189.dmg/download"><span><span><img src="img/web-download-macosx.png" border="0" alt="MacCZ"/><br/>Download CUDA-Z for Mac OSX</span></span></a></p>
+								<p class="download-button" id="download-macosx"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.8/CUDA-Z-0.8.207.dmg/download"><span><span><img src="img/web-download-macosx.png" border="0" alt="MacCZ"/><br/>Download CUDA-Z for Mac OSX</span></span></a></p>
 								<p class="info"><b>Mac OSX notes:</b><br/>
 								CUDA-Z runs in Mac OSX 10.7 Snow Leopard and later.
-								Macs a shipped with proper Geforce driver but CUDA driver is not, so CUDA-Z additionaly requires special <a href="http://www.nvidia.com/object/mac-driver-archive.html">CUDA 5.0 Drivers for MacOS</a> being installed in the system.</p>
-								<p>As far as CUDA 5.0 supports only Mac OSX 10.7 and 10.8 the new version of CUDA-Z is not able to run under Mac OSX 10.6.
+								Macs a shipped with proper Geforce driver but CUDA driver is not, so CUDA-Z additionaly requires special <a href="http://www.nvidia.com/object/mac-driver-archive.html">CUDA 5.5 Drivers for MacOS</a> being installed in the system.</p>
+								<p>As far as CUDA 5.0+ supports only Mac OSX 10.7 and 10.8 the new version of CUDA-Z is not able to run under Mac OSX 10.6.
 								For those who runs Snow Leo on their Mac's it's recommended to use CUDA-Z 0.6.163 instead.</p>
 								<p><b>Please note that CUDA-Z for Mac OSX is in bata stage now and is not acquires heavy testing</b>.</p>
 								<div class="screenshots" id="screenshots-macosx">
@@ -123,7 +123,15 @@
 						<div id="block-news" class="block-inactive">
 							<div class="block-body">
 								<div id="news-text-block">
-									<h2>News</h2>
+									<h2>News</h2> <!-- TODO: add scroller here! -->
+									<h3>2013.11.22: Release 0.8.207 is out</h3>
+									<p>Mainstream release.</p>
+									<ul>
+										<li>CUDA run-time 5.5 in use.</li>
+										<li>Fix search of CUDA library in Linux (Bug: <a href="http://sourceforge.net/p/cuda-z/bugs/16/">16</a>).</li>
+										<li>Use static CUDART and UPX to reduce a package size.</li>
+										<li>Minor fixes and improvements.</li>
+									</ul>
 									<h3>2013.10.02: Release 0.7.189 is out</h3>
 									<p>Hotfix release for GTX TITAN.</p>
 									<ul>
