@@ -1,2 +1,0 @@
-configure.exe -debug-and-release -static -no-exceptions -no-accessibility -no-stl -no-sql-sqlite -no-qt3support -no-opengl -platform win32-msvc2008 -no-gif -no-libmng -no-libtiff -no-libjpeg -vcproj -no-incredibuild-xge -no-rtti -no-3dnow -no-sse -no-sse2 -no-openssl -no-dbus -no-phonon -no-webkit -no-style-plastique -no-style-cleanlooks -no-style-motif -no-style-cde -confirm-license -opensource
-nmake sub-src
