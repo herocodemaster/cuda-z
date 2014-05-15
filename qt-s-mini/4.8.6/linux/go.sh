@@ -8,7 +8,7 @@ SOURCE_PATH=$INSTALL_PATH/../qt-4.8.6
 export MAKEFLAGS=-j4
 
 mkdir $INSTALL_PATH/mkspecs
-cp -r $SOURCE_PATH/mkspecs $INSTALL_PATH/mkspecs
+cp -r $SOURCE_PATH/mkspecs $INSTALL_PATH
 
 mkdir $BUILD_PATH
 cd $BUILD_PATH
@@ -23,7 +23,7 @@ nice $SOURCE_PATH/configure -prefix $INSTALL_PATH -debug-and-release -static \
 	-no-3dnow -no-sse -no-sse2 -no-sse3 -no-ssse3 -no-sse4.1 -no-sse4.2 \
 	-no-avx -no-neon -no-gif -no-libtiff -qt-libpng -no-libmng -no-libjpeg \
 	-no-openssl -no-nis -no-cups -no-iconv -no-dbus -reduce-relocations \
-	-no-nas-sound -no-opengl -no-openvg -no-sm -no-xvideo -no-rtti \
+	-no-nas-sound -no-opengl -no-openvg -no-sm -no-xvideo \
 	-no-xsync -no-xinerama \
 	-confirm-license -opensource
 make && make install
