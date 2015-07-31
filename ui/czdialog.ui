@@ -20,6 +20,40 @@
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
     <widget class="QTabWidget" name="tabInfo">
+     <property name="styleSheet">
+      <string notr="true">QWidget {
+color: white;
+background-color: black;
+background-image: url(:/img/blue-moon.png);
+background-repeat: none;
+background-position: center;
+}
+
+QTabBar::tab:selected {
+color: white;
+background-color: black;
+}
+
+QTabBar::tab {
+color: white;
+background-color: gray;
+}
+
+QTabBar::tab:hover {
+background-color: white;
+color: black;
+}
+
+QLabel, QPushButton, QCheckBox, QMenu {
+background-image: url(:/img/1px.png);
+background-color: transparent;
+}
+
+QPushButton:hover {
+background-color: white;
+color: black;
+}</string>
+     </property>
      <property name="currentIndex">
       <number>0</number>
      </property>
@@ -1509,6 +1543,10 @@
          <height>0</height>
         </size>
        </property>
+       <property name="styleSheet">
+        <string notr="true">color: white;
+background-color: black;</string>
+       </property>
       </widget>
      </item>
      <item>
@@ -1526,6 +1564,17 @@
      </item>
      <item>
       <widget class="QPushButton" name="pushOk">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+background-color: black;
+color: white;
+}
+
+QPushButton:hover {
+background-color: white;
+color: black;
+}</string>
+       </property>
        <property name="text">
         <string>&amp;OK</string>
        </property>

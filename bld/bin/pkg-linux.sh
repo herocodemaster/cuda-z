@@ -37,18 +37,14 @@ if [ ! -r "$czBuildDir/$czBldFile" ]; then
 	exit 1
 fi
 
-czFile=`file "$czBuildDir/$czExeDir/$czExeName"`
-if echo "$czFile" | grep -q "x86-64"; then
-	czBldSuffix="64bit"
-elif echo "$czFile" | grep -q "80386"; then
-	czBldSuffix="32bit"
-fi
-
 czUname=`uname -m`
+
 if [ "$czUname" = "x86_64" ]; then
 	czUpx="bld/bin/upx-linux64"
+	czBldSuffix="64bit"
 elif [ "$czUname" = "i686" ]; then
 	czUpx="bld/bin/upx-linux32"
+	czBldSuffix="32bit"
 fi
 
 strip "$czBuildDir/$czExeDir/$czExeName"

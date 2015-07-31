@@ -16,5 +16,7 @@
 		<file>img/upd-info.png</file>
 		<file>img/upd-warning.png</file>
 		<file>img/upd-update.png</file>
+		<file>img/blue-moon.png</file>
+		<file>img/1px.png</file>
 	</qresource>
 </RCC>
