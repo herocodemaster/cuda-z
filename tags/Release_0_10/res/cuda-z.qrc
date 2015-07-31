@@ -1,0 +1,22 @@
+<!DOCTYPE RCC><RCC version="1.0">
+	<qresource>
+		<file>img/icon.png</file>
+		<file>img/logo.png</file>
+		<file>img/splash1.png</file>
+		<file>img/splash2.png</file>
+		<file>img/splash3.png</file>
+		<file>img/logo-geforce.png</file>
+		<file>img/logo-quadro.png</file>
+		<file>img/logo-tesla.png</file>
+		<file>img/logo-ion.png</file>
+		<file>img/logo-unknown.png</file>
+		<file>img/upd-download.png</file>
+		<file>img/upd-download-critical.png</file>
+		<file>img/upd-error.png</file>
+		<file>img/upd-info.png</file>
+		<file>img/upd-warning.png</file>
+		<file>img/upd-update.png</file>
+		<file>img/blue-moon.png</file>
+		<file>img/1px.png</file>
+	</qresource>
+</RCC>
