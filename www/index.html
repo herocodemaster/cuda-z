@@ -26,8 +26,8 @@
 					<div id="summary">
 						<p><b>CUDA Information Utility</b></p>
 						<p>for Windows, Linux and Mac OSX</p>
-						<p>Last Release: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/"><b>0.9.231</b></a></p>
-<!--						<p>Last Beta: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/Beta/"><b>0.10.XXX</b></a></p> -->
+						<p>Last Release: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/"><b>0.10.251</b></a></p>
+<!--						<p>Last Beta: <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/Beta/"><b>0.11.XXX</b></a></p> -->
 					</div>
 				</div>
 				<div id="menu">
@@ -65,11 +65,11 @@
 						<div id="block-windows" class="block-inactive">
 							<div class="block-body">
 								<h2>Windows</h2>
-								<p class="download-button" id="download-windows"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/CUDA-Z-0.9.231.exe/download"><span><span><img src="img/web-download-windows.png" border="0" alt="WinCZ"/><br/>Download CUDA-Z for Windows XP/Vista/7/8 32/64-bit</span></span></a></p>
+								<p class="download-button" id="download-windows"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-32bit.exe/download"><span><span><img src="img/web-download-windows.png" border="0" alt="WinCZ"/><br/>Download CUDA-Z for Windows 7/8/10 32-bit</span></span></a> & <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-64bit.exe/download"><span><span>Windows 7/8/10 64-bit</span></span></a></p>
 								<p class="info"><b>Windows notes:</b><br/>
 								CUDA-Z is known to not function with default Microsoft driver for nVIDIA chips.
 								User must install <a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">official driver for nVIDIA products</a> to run CUDA-Z.</p>
-								<p>It's strongly recommended to update your Windows regulary and use antivirus software to prevent data loses and system performance degradation.</p>
+								<p>It's strongly recommended to update your Windows regularly and use anti-virus software to prevent data loses and system performance degradation.</p>
 								<div class="screenshots" id="screenshots-windows">
 									<ul>
 										<li><a rel="group_win32" href="img/scr/CZ-win32-p1.png" title="CUDA-Z in Windows | Card0: GTX285 | Core info"><img src="img/scr/tmb/CZ-win32-p1.png" alt="CUDA-Z in Windows" border="0" /></a></li>
@@ -83,13 +83,12 @@
 						<div id="block-linux" class="block-inactive">
 							<div class="block-body">
 								<h2>Linux</h2>
-								<p class="download-button" id="download-linux"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/CUDA-Z-0.9.231.run/download"><span><span><img src="img/web-download-linux.png" border="0" alt="TuxCZ"/><br/>Download CUDA-Z for Linux 32/64-bit</span></span></a></p>
+								<p class="download-button" id="download-linux"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-32bit.run/download"><span><span><img src="img/web-download-linux.png" border="0" alt="TuxCZ"/><br/>Download CUDA-Z for Linux 32-bit</span></span></a> & <a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-64bit.run/download"><span><span>Linux 64-bit</span></span></a></p>
 								<p class="info"><b>Linux notes:</b><br/>
 								CUDA-Z is known not to function with 3rd-party linux driver for nVIDIA chips.
 								You can <a href="http://www.nvidia.com/Download/index.aspx?lang=en-us">download the official driver from nVIDIA website</a> if your distribution is not equipped with proper driver.</p>
-								<p>Note also that <em>x86_64 linux requires 32-bit compatibility libraries package</em> being installed to run CUDA-Z.
-								(<code>sudo apt-get install ia32-libs</code> for Ubuntu x86_64).
-								In case of problem with available package you can download the source archive and follow instructions in <em>readme.txt</em>.</p>
+								<p>Please keep in mind you can now use a 64-bit build of CUDA-Z on your x86_64 Linux to avoid 32-bit libraries installation.
+								If you still want to use 32-bit build of CUDA-Z on your x86_64 Linux please refer to <a href="http://blog.redscorp.net/?p=94">this post</a> for more information.</p>
 								<div class="screenshots" id="screenshots-linux">
 									<ul>
 										<li><a rel="group_linux" href="img/scr/CZ-linux-p1.png" title="CUDA-Z in Linux | Card0: GTX285 | Core info"><img src="img/scr/tmb/CZ-linux-p1.png" alt="CUDA-Z in Linux" border="0" /></a></li>
@@ -103,10 +102,10 @@
 						<div id="block-macosx" class="block-inactive">
 							<div class="block-body">
 								<h2>Mac OSX</h2>
-								<p class="download-button" id="download-macosx"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/CUDA-Z-0.9.231.dmg/download"><span><span><img src="img/web-download-macosx.png" border="0" alt="MacCZ"/><br/>Download CUDA-Z for Mac OSX</span></span></a></p>
+								<p class="download-button" id="download-macosx"><a href="http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251.dmg/download"><span><span><img src="img/web-download-macosx.png" border="0" alt="MacCZ"/><br/>Download CUDA-Z for Mac OSX</span></span></a></p>
 								<p class="info"><b>Mac OSX notes:</b><br/>
 								CUDA-Z runs in Mac OSX 10.8 and later.
-								Macs a shipped with proper Geforce driver but CUDA driver is not, so CUDA-Z additionaly requires special <a href="http://www.nvidia.com/object/mac-driver-archive.html">CUDA Drivers for MacOS</a> being installed in the system.</p>
+								Macs a shipped with proper Geforce driver but CUDA driver is not, so CUDA-Z additionally requires special <a href="http://www.nvidia.com/object/mac-driver-archive.html">CUDA Drivers for MacOS</a> being installed in the system.</p>
 								<p>As far as CUDA 6.0+ supports only Mac OSX 10.8 and later the new version of CUDA-Z is not able to run under Mac OSX 10.6.
 								For those who runs earlier versions on their Mac's it's recommended to use CUDA-Z 0.6.163 instead.</p>
 								<p><b>Please note that CUDA-Z for Mac OSX is in bata stage now and is not acquires heavy testing</b>.</p>
@@ -124,12 +123,23 @@
 							<div class="block-body">
 								<div id="news-text-block">
 									<h2>News</h2> <!-- TODO: add scroller here! -->
+									<h3>2015.07.31: Release 0.10.251 is out</h3>
+									<p>Mainstream release.</p>
+									<ul>
+										<li>CUDA run-time 6.5;</li>
+										<li>Add export to clipboard;</li>
+										<li>64-bit integer performance test;</li>
+										<li>Improved missing CUDA error messages;</li>
+										<li>Support of new hardware;</li>
+										<li>Separate 32 and 64-bit builds for Windows and Linux platforms;</li>
+										<li>Minor fixes and improvements</li>
+									</ul>
 									<h3>2014.12.05: Release 0.9.231 is out</h3>
 									<p>Mainstream release.</p>
 									<ul>
 										<li>CUDA run-time 6.0;</li>
 										<li>Fix potential memory leak (Bug: <a href="http://sourceforge.net/p/cuda-z/bugs/19/">19</a>);</li>
-										<li>New build environment is used for Mac OSX version.</li>
+										<li>New build environment is used for Mac OSX version;</li>
 										<li>Fix performance test to reach it's peak on CUDA SM 2.x devices (Bug: <a href="http://sourceforge.net/p/cuda-z/bugs/20/">20</a>);</li>
 										<li>Better support of some new CUDA devices;</li>
 										<li>Minor fixes and improvements</li>
@@ -190,6 +200,7 @@
 								<div id="support-links">
 									<ul id="support-links-local">
 										<li><a href="http://sourceforge.net/projects/cuda-z/">Project Page</a></li>
+										<li><a href="http://blog.redscorp.net/">Blog</a> &amp; <a href="http://www.facebook.com/pages/Cuda-Z/1423304101256957">Facebook</a></li>
 										<li><a href="http://sourceforge.net/p/cuda-z/code/">SVN Repository</a></li>
 										<li><a href="http://sourceforge.net/p/cuda-z/bugs/">Bugs</a> &amp; <a href="http://sourceforge.net/p/cuda-z/discussion/">Forums</a></li>
 									</ul>
@@ -200,8 +211,6 @@
 										<li><a href="https://skydrive.live.com/redir?resid=564F0E6F77483294!107&authkey=!AK1uvCVlsIZJ7Uo">MS SkyDrive</a></li>
 									</ul>
 									<ul id="support-links-global">
-										<li><a href="http://blog.redscorp.net/">Developer's blog</a></li>
-										<li><a href="http://www.facebook.com/pages/Cuda-Z/1423304101256957">Facebook page</a></li>
 										<li><a href="http://qt-project.org/">Qt Project</a></li>
 										<li><a href="http://www.nvidia.com/object/cuda_home.html">nVidia CUDA</a></li>
 										<li><a href="http://www.cpuid.com/cpuz.php">CPU-Z</a> &amp; <a href="http://www.techpowerup.com/gpuz/">GPU-Z</a></li>

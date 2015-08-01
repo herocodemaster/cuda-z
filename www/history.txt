@@ -58,3 +58,12 @@ download-src http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/cuda-z-0.9.
 download-win32 http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/CUDA-Z-0.9.231.exe/download
 download-linux http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/CUDA-Z-0.9.231.run/download
 download-macosx http://sourceforge.net/projects/cuda-z/files/cuda-z/0.9/CUDA-Z-0.9.231.dmg/download
+version 0.10.251
+release-notes http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/
+download-src http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/cuda-z-0.10.zip/download
+download-win32 http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-32bit.exe/download
+download-win64 http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-64bit.exe/download
+download-linux http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-32bit.run/download
+download-linux32 http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-32bit.run/download
+download-linux64 http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251-64bit.run/download
+download-macosx http://sourceforge.net/projects/cuda-z/files/cuda-z/0.10/CUDA-Z-0.10.251.dmg/download
