@@ -54,7 +54,7 @@ ul {
 	background-repeat: no-repeat;
 	background-position: 0 top;
 	width: 650px;
-	height: 90px;
+	height: 110px;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -71,8 +71,8 @@ ul {
 
 #summary {
 	position: relative;
-	top: -70px;
-	left: 350px;
+	top: -60px;
+	left: 400px;
 	width: 260px;
 }
 
